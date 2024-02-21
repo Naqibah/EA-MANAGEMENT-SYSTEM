@@ -1,0 +1,26 @@
+<style>
+.main {
+background-color: green;}
+body {
+background-color: lightgrey;
+font-family:Arial;
+}
+form {
+ background-color:lightgreen;
+ border: ridge;
+ border-color: darkgreen;
+ width: 400px;
+ padding: 50px;
+ margin:auto;
+}
+button{
+border: ridge;
+border-color: grey;
+padding:20px;
+size: 20px;
+}
+.B1 {
+background-color:lightgreen; }
+.B3 {
+background-color:#CAF3BD ; }
+</style>

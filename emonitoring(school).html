@@ -1,0 +1,99 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>e-monitoring</title>
+	<link rel="stylesheet" type="text/css" href="emonitoring(JPN).css">
+	<script src="emonitoring(JPN).js"></script>
+	<style>
+	table {
+	width:98%;
+}
+	#t01 tr:nth-child(even) {
+	background-color: #eee;
+}
+	#t01 tr:nth-child(odd) {
+	background-color: #fff;
+}
+	#t01 th {
+	background-color: black;
+	color: white;
+}
+	</style>
+</head>
+<body>
+	<div class="nav">
+		<img src="logojpns.jpeg">
+		<p class="abt">Selamat Datang</p>
+		<h4><b><u>Pengisian data pentaksir dan status pengesahan</u></b></h4>
+		<a class="active" href="#info">Seremban</a>
+		<a href="#exp">Port Dickson</a>
+		<a href="#skills">Jempol/Jelebu</a>
+		<a href="#edu">Tampin</a>
+		<a href="#contact">Kuala Pilah</a>
+		<a href="#contact">Rembau</a>
+	</div>
+	<div class="content">
+		<div id="contact">
+			<div class="info">
+			<form method="post">
+				<!-- smk mantin kena tukaq ikut data yg ditekan sebelumnya -->
+				<!-- also kena renew this table according to database -->
+				<h1>E - MONITORING<br>(Seremban)<br>SMK Mantin </h1><br>
+				<h3>Senarai Pentaksir Yang Telah Ditetapkan Oleh JPN</h3>
+				<table id="t01">
+				<tr>
+				<th>Nama</th>
+				<th>Jawatan</th>
+				<th>Kod Sekolah</th>
+				<th>Subjek</th>
+				<th>No Kad Pengenalan</th>
+				<th>Tarikh</th>
+				<th>Masa</th>
+				</tr>
+				<tr>
+				<td>Khairi bin Ismail</td>
+				<td>Ketua Pentaksir</td>
+				<td>NEB4089</td>
+				<td>Sains</td>
+				<td>721114-08-7597</td>
+				<td>05/09/2020</td>
+				<td>0900-1200</td>
+				</tr>
+				<tr>
+				<td>Hasmah binti Hasnah</td>
+				<td>Pentaksir</td>
+				<td>NEB4097</td>
+				<td>Sains</td>
+				<td>741214-07-1594</td>
+				<td>05/08/2020</td>
+				<td>1300-1500</td>
+				</tr>
+				<tr>
+				<td>Isa bin Jalil</td>
+				<td>Pentaksir</td>
+				<td>NEA4098</td>
+				<td>Sains</td>
+				<td>851201-04-1427</td>
+				<td>09/08/2020</td>
+				<td>0900-1200</td>
+				</tr>
+				</table>
+				<br>
+				<h3>Adakah pihak sekolah bersetuju dengan tarikh dan masa yang ditetap oleh JPN untuk pentaksiran ?</h3>
+				<input type="radio" id="ya" name="ya" value="ya">
+				<label for="ya">Setuju</label><br>
+				<input type="radio" id="tak" name="tak" value="tak">
+				<label for="tak">Tidak Bersetuju</label><br>
+				<br>
+				
+				<p><input type="submit" name="Hantar" value="Hantar"></p>
+
+
+</script>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

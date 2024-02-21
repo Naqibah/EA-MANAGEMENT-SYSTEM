@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Electrolize');
+@import url('https://fonts.googleapis.com/css?family=Alegreya SC');
+@import url('https://fonts.googleapis.com/css?family=Bungee Shade');
+body{
+	background-image: url(blue.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 0;
+	margin: 0;
+}
+.nav{
+	height: 100%;
+	width: 20%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	padding-top: 20px;
+	background-color: rgb(255, 255, 255);
+}
+.nav img{
+	width: 250px;
+	height: 200px;
+	border-radius: 0%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.nav p{
+	text-align: center;
+}
+.nav h4{
+	text-align: center;
+	font-family:'Alegreya SC';
+}
+.abt{
+	margin-left: 0;
+	text-align: center;
+	background-color: Blue;
+	color: rgb(255, 255, 255);
+	padding: 4px;
+	font-family:"Lucida Console", Courier, monospace;
+}
+.nav a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	display: block;
+	text-align: center;
+	font-family: Electrolize;
+}
+.nav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.nav a:hover:not(.active){
+	background-color: MediumSeaGreen;
+	color: rgb(255, 255, 255);
+}
+.content{
+	margin-left: 20%;
+}
+.info{
+	margin: 20px;
+}
+.info p, table{
+	margin-left: 30px;
+}
+.info h1{
+	font-family: 'Bungee Shade';
+	text-align: center;
+}
+.info h3{
+	font-family:'Alegreya SC';
+}
+th,td{
+	border: 0px solid ;
+	border-collapse: collapse;
+	text-align: left;
+	padding: 8px;
+}
+table{
+	width: 80%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.js{
+	margin: 70px;
+}
+input[type=text], textarea {
+	width: 70%;
+	padding: 12px;
+	border: 1px solid rgb(204, 204, 204);
+  	border-radius: 4px;
+  	resize: vertical;
+}
+input[type=submit] {
+  	color: white;
+ 	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+	background-color: #4CAF50;
+}
+@keyframes animate{
+	0%{
+		background-position: 0%;
+	}
+	100%{
+		background-position: 400%;
+	}
+}
+@media screen and (max-width: 700px) {
+  .nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .content {
+  	margin-left: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .nav a {
+    float: none;
+    text-align: center;
+  }
+  .js input[type=text], textarea {
+    width: 100%;
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,22 @@
+<style>
+.main {
+background-color: blue;}
+body {
+background-color: lightgrey;
+font-family:Electrolize;
+}
+form {
+ background-color:lightblue;
+ border: ridge;
+ border-color: blue;
+ width: 350px;
+ 
+ padding: 50px;
+ margin:auto;
+ 
+}
+.B1 {
+background-color:lightblue; }
+.B3 {
+background-color:#CAF3BD ; }
+</style>
